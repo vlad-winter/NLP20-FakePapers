@@ -1,0 +1,1 @@
+Our Multi-Column Deep Neural Networks achieve best known recognition rates on Chinese characters from the ICDAR N and N offline handwriting competitions, approaching human performance.

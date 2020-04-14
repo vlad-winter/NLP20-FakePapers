@@ -1,0 +1,1 @@
+We present a solution to ``Google Cloud and YouTube-NM Video Understanding Challenge'' that ranked Nth place. The proposed model is an ensemble of three model families, two frame level and one video level. The training was performed on augmented dataset, with cross validation.

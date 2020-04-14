@@ -1,0 +1,1 @@
+In this paper, a deep neural network based ensemble method is experimented for automatic identification of skin disease from dermoscopic images. The developed algorithm is applied on the taskN of the ISIC N challenge dataset (Skin Lesion Analysis Towards Melanoma Detection) .

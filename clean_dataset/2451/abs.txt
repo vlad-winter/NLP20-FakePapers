@@ -1,0 +1,1 @@
+Here we present a parametric model for dynamic textures. The model is based on spatiotemporal summary statistics computed from the feature representations of a Convolutional Neural Network (CNN) trained on object recognition. We demonstrate how the model can be used to synthesise new samples of dynamic textures and to predict motion in simple movies.

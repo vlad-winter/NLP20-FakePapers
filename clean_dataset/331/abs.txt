@@ -1,0 +1,1 @@
+In this project we extend the state-of-the-art CheXNet () by making use of the additional non-image features in the dataset. Our model produced better AUROC scores than the original CheXNet.
