@@ -14,7 +14,7 @@ Second, we use another pre-trained gpt-2 and fine tune it in the following manne
 - then, we take the past hidden state generated from that model, sent it as the past argument to the intro model and do forward pass on our given intro.
 - backpropage the gradient loss.
 
-* This process may be tested on intro, but can be performed on every section of the paper.
+* This process was tested on the intro, but can be performed on every section of the paper.
 
 
 
