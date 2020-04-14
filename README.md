@@ -4,7 +4,7 @@
 In order to make our University proud, we have decided that as all CS researches we preffer that someone else will do the job of writing papers for us. To accomplish this task we thoght of a model, that according to our abstract idea, will write the rest of paper accordingly. So, formally speaking, giving an abstract, it would generate the rest of the paper by relevant sections, strating with the INTRO.
 
 ## Data description
-The collection of data was performed using arxiv scraper. We donwnload and preprocessed over 2,000 papers, s.t. for each paper the abstract and the matching introuction text were extracted.
+The dataset was downloaded from arxiv using a python script scraper. We donwnload and preprocessed over 2,000 papers, s.t. for each paper the abstract and the matching introuction texts were extracted.
 
 ## Architecture
 Our architecture is based over gpt-2 model. At first, after data preprocessing, we fine tune the pretrained gpt-2 model over our extracted abstracts.
