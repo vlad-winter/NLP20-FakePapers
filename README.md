@@ -23,7 +23,7 @@ Second, we use another pre-trained gpt-2 and fine tune it in the following manne
 ## Examples
 
 ## Conculstion
-
+unfortunately, as for the seen future we will need to write our own paper. Nevertheless, the results were better then we expected and the generated introductions showed some correlation to the given abstract topic. Hopefully, someday we will be able to use this algorithm to defeat the Chinese.
 ## How to install
 
 ```bash 
