@@ -7,6 +7,15 @@ In order to make our University proud, we have decided that as all CS researches
 The collection of data was performed using arxiv scraper. We donwnload and preprocessed over 2,000 papers, s.t. for each paper the abstract and the matching introuction text were extracted.
 
 ## Architecture
+Our architecture is based over gpt-2 model. At first, after data preprocessing, we fine tune the pretrained gpt-2 model over our extracted abstracts.
+
+Second, we use another pre-trained gpt-2 and fine tune it in the following manner:
+- for each abstract, intro pair we first do forward pass of the abstract on the previous model we learned.
+- then, we take the past hidden state generated from that model, sent it as the past argument to the intro model and do forward pass on our given intro.
+- backpropage the gradient loss.
+
+* This process may be tested on intro, but can be performed on every section of the paper.
+
 
 
 ## Results
