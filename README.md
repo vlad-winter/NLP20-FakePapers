@@ -46,5 +46,5 @@ python train_abs.py
 Run the following script:
 
 ```bash
-python train_abs.py
+python train_intro.py
 ```
