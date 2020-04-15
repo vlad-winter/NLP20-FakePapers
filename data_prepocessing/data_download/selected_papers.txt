@@ -1,0 +1,200 @@
+Weakly Supervised Learning of Foreground-Background Segmentation using  Masked RBMs\n
+http://arxiv.org/abs/1107.3823
+Neural Networks for Emotion Classification\n
+http://arxiv.org/abs/1105.6014
+Learning Random Kernel Approximations for Object Recognition\n
+http://arxiv.org/abs/1203.1483
+Neural perceptual model to global-local vision for recognition of the  logical structure of administrative documents\n
+http://arxiv.org/abs/1310.7440
+Exact and Approximate Inference in Associative Hierarchical Networks  using Graph Cuts\n
+http://arxiv.org/abs/1203.3512
+Dynamic Hierarchical Bayesian Network for Arabic Handwritten Word  Recognition\n
+http://arxiv.org/abs/1405.5248
+Learning Human Pose Estimation Features with Convolutional Networks\n
+http://arxiv.org/abs/1312.7302
+Combined Learning of Salient Local Descriptors and Distance Metrics for  Image Set Face Verification\n
+http://arxiv.org/abs/1303.2783
+Generic Deep Networks with Wavelet Scattering\n
+http://arxiv.org/abs/1312.5940
+A Facial Expression Classification System Integrating Canny, Principal  Component Analysis and Artificial Neural Network\n
+http://arxiv.org/abs/1111.4052
+Contour polygonal approximation using shortest path in networks\n
+http://arxiv.org/abs/1311.4252
+Eclectic Extraction of Propositional Rules from Neural Networks\n
+http://arxiv.org/abs/1110.0214
+Combining Neural Networks for Skin Detection\n
+http://arxiv.org/abs/1101.0384
+Generative NeuroEvolution for Deep Learning\n
+http://arxiv.org/abs/1312.5355
+Review of Face Detection Systems Based Artificial Neural Networks  Algorithms\n
+http://arxiv.org/abs/1404.1292
+Hybrid Generative/Discriminative Learning for Automatic Image Annotation\n
+http://arxiv.org/abs/1203.3530
+Spectral Networks and Locally Connected Networks on Graphs\n
+http://arxiv.org/abs/1312.6203
+Fine-Grained Visual Categorization via Multi-stage Metric Learning\n
+http://arxiv.org/abs/1402.0453
+Large-margin Learning of Compact Binary Image Encodings\n
+http://arxiv.org/abs/1402.6383
+Neural Networks for Handwritten English Alphabet Recognition\n
+http://arxiv.org/abs/1205.3966
+Adaptive Cluster Expansion (ACE): A Multilayer Network for Estimating  Probability Density Functions\n
+http://arxiv.org/abs/1012.3656
+Visualizing and Understanding Convolutional Networks\n
+http://arxiv.org/abs/1311.2901
+Facial Expression Representation and Recognition Using 2DHLDA, Gabor  Wavelets, and Ensemble Learning\n
+http://arxiv.org/abs/1004.0378
+The Neural Representation Benchmark and its Evaluation on Brain and  Machine\n
+http://arxiv.org/abs/1301.3530
+On multi-view feature learning\n
+http://arxiv.org/abs/1206.4609
+Structured learning of sum-of-submodular higher order energy functions\n
+http://arxiv.org/abs/1309.7512
+A Machine Learning Approach to Recovery of Scene Geometry from Images\n
+http://arxiv.org/abs/1007.2958
+Adaptive Graph via Multiple Kernel Learning for Nonnegative Matrix  Factorization\n
+http://arxiv.org/abs/1208.3845
+Learning a Loopy Model For Semantic Segmentation Exactly\n
+http://arxiv.org/abs/1309.4061
+Autonomously Learning to Visually Detect Where Manipulation Will Succeed\n
+http://arxiv.org/abs/1212.6837
+A Probabilistic Framework for Discriminative Dictionary Learning\n
+http://arxiv.org/abs/1109.2389
+Dictionary learning based image enhancement for rarity detection\n
+http://arxiv.org/abs/1305.0871
+Self-tuned Visual Subclass Learning with Shared Samples An Incremental  Approach\n
+http://arxiv.org/abs/1405.5732
+Learning sparse representations of depth\n
+http://arxiv.org/abs/1011.6656
+Deeply Coupled Auto-encoder Networks for Cross-view Classification\n
+http://arxiv.org/abs/1402.2031
+Actions in the Eye: Dynamic Gaze Datasets and Learnt Saliency Models for  Visual Recognition\n
+http://arxiv.org/abs/1312.7570
+Bayesian estimation of regularization and PSF parameters for Wiener-Hunt  deconvolution\n
+http://arxiv.org/abs/1004.5538
+PANDA: Pose Aligned Networks for Deep Attribute Modeling\n
+http://arxiv.org/abs/1311.5591
+Multi-Task Feature Learning Via Efficient l2,1-Norm Minimization\n
+http://arxiv.org/abs/1205.2631
+Image forgery detection based on the fusion of machine learning and  block-matching methods\n
+http://arxiv.org/abs/1311.6934
+An Application of Backpropagation Artificial Neural Network Method for  Measuring The Severity of Osteoarthritis\n
+http://arxiv.org/abs/1309.7522
+Matrices of forests, analysis of networks, and ranking problems\n
+http://arxiv.org/abs/1305.6441
+Pushing Stochastic Gradient towards Second-Order Methods --  Backpropagation Learning with Transformations in Nonlinearities\n
+http://arxiv.org/abs/1301.3476
+Bayesian Nonparametric Dictionary Learning for Compressed Sensing MRI\n
+http://arxiv.org/abs/1302.2712
+Learning Stable Multilevel Dictionaries for Sparse Representations\n
+http://arxiv.org/abs/1303.0448
+From Kernel Machines to Ensemble Learning\n
+http://arxiv.org/abs/1401.0767
+Handwritten Digit Recognition with a Committee of Deep Neural Nets on  GPUs\n
+http://arxiv.org/abs/1103.4487
+Clustering and Bayesian network for image of faces classification\n
+http://arxiv.org/abs/1204.1679
+Super-resolution using Sparse Representations over Learned Dictionaries:  Reconstruction of Brain Structure using Electron Microscopy\n
+http://arxiv.org/abs/1210.0564
+Multiple models of Bayesian networks applied to offline recognition of  Arabic handwritten city names\n
+http://arxiv.org/abs/1301.4377
+Blind Deconvolution with Non-local Sparsity Reweighting\n
+http://arxiv.org/abs/1311.4029
+Learning Mixed Graphical Models\n
+http://arxiv.org/abs/1205.5012
+Big Neural Networks Waste Capacity\n
+http://arxiv.org/abs/1301.3583
+Rectifying Self Organizing Maps for Automatic Concept Learning from Web  Images\n
+http://arxiv.org/abs/1312.4384
+Learning Temporal Logical Properties Discriminating ECG models of  Cardiac Arrhytmias\n
+http://arxiv.org/abs/1312.7523
+Learning Features and their Transformations by Spatial and Temporal  Spherical Clustering\n
+http://arxiv.org/abs/1308.2350
+Large Margin Boltzmann Machines and Large Margin Sigmoid Belief Networks\n
+http://arxiv.org/abs/1003.4781
+One-Shot-Learning Gesture Recognition using HOG-HOF Features\n
+http://arxiv.org/abs/1312.4190
+Positive Semidefinite Metric Learning Using Boosting-like Algorithms\n
+http://arxiv.org/abs/1104.4704
+Seeing the Big Picture: Deep Embedding with Contextual Evidences\n
+
+No more meta-parameter tuning in unsupervised sparse feature learning\n
+http://arxiv.org/abs/1402.5766
+Closed-Loop Learning of Visual Control Policies\n
+http://arxiv.org/abs/1110.2210
+Machine learning of hierarchical clustering to segment 2D and 3D images\n
+http://arxiv.org/abs/1303.6163
+Astronomical Image Denoising Using Dictionary Learning\n
+http://arxiv.org/abs/1304.3573
+Deep Convolutional Ranking for Multilabel Image Annotation\n
+http://arxiv.org/abs/1312.4894
+Incremental Learning of 3D-DCT Compact Representations for Robust Visual  Tracking\n
+http://arxiv.org/abs/1207.3389
+Pedestrian Detection with Unsupervised Multi-Stage Feature Learning\n
+http://arxiv.org/abs/1212.0142
+Learning Smooth Pattern Transformation Manifolds\n
+http://arxiv.org/abs/1112.5640
+Learning Deep Face Representation\n
+http://arxiv.org/abs/1403.2802
+Discriminative Training: Learning to Describe Video with Sentences, from  Video Described with Sentences\n
+http://arxiv.org/abs/1306.5263
+An enhanced neural network based approach towards object extraction\n
+http://arxiv.org/abs/1405.6137
+Learning Paired-associate Images with An Unsupervised Deep Learning  Architecture\n
+http://arxiv.org/abs/1312.6171
+Spatial-Aware Dictionary Learning for Hyperspectral Image Classification\n
+http://arxiv.org/abs/1308.1187
+Visual saliency estimation by integrating features using multiple kernel  learning\n
+http://arxiv.org/abs/1307.5693
+Sparsity Based Poisson Denoising with Dictionary Learning\n
+http://arxiv.org/abs/1309.4306
+Implementation of a Vision System for a Landmine Detecting Robot Using  Artificial Neural Network\n
+http://arxiv.org/abs/1210.7956
+Automatic facial feature extraction and expression recognition based on  neural network\n
+http://arxiv.org/abs/1204.2073
+A Brief Summary of Dictionary Learning Based Approach for Classification\n
+http://arxiv.org/abs/1205.6391
+A General Two-Step Approach to Learning-Based Hashing\n
+http://arxiv.org/abs/1309.1853
+Skin Texture Recognition Using Neural Networks\n
+http://arxiv.org/abs/1311.6049
+Deep learning for class-generic object detection\n
+http://arxiv.org/abs/1312.6885
+Sparse Transfer Learning for Interactive Video Search Reranking\n
+http://arxiv.org/abs/1103.2756
+Dictionary Learning for Deblurring and Digital Zoom\n
+http://arxiv.org/abs/1110.0957
+Contextually learnt detection of unusual motion-based behaviour in  crowded public spaces\n
+http://arxiv.org/abs/1309.6390
+Multi-input Multi-output Beta Wavelet Network: Modeling of Acoustic  Units for Speech Recognition\n
+http://arxiv.org/abs/1211.2007
+Classification of Fused Images using Radial Basis Function Neural  Network for Human Face Recognition\n
+http://arxiv.org/abs/1007.0631
+Multi-Hypothesis CRF-Segmentation of Neural Tissue in Anisotropic EM  Volumes\n
+http://arxiv.org/abs/1109.2449
+Analysis Operator Learning and Its Application to Image Reconstruction\n
+http://arxiv.org/abs/1204.5309
+Learning Robust Subspace Clustering\n
+http://arxiv.org/abs/1308.0273
+Seeking multi-thresholds for image segmentation with Learning Automata\n
+http://arxiv.org/abs/1405.7361
+Information Theoretic Learning with Infinitely Divisible Kernels\n
+http://arxiv.org/abs/1301.3551
+Sparse Illumination Learning and Transfer for Single-Sample Face  Recognition with Image Corruption and Misalignment\n
+http://arxiv.org/abs/1402.1879
+Separable Dictionary Learning\n
+http://arxiv.org/abs/1303.5244
+Blind Image Deblurring by Spectral Properties of Convolution Operators\n
+http://arxiv.org/abs/1209.2082
+Artificial Neural Network Fuzzy Inference System (ANFIS) For Brain Tumor  Detection\n
+http://arxiv.org/abs/1212.0059
+An Analysis of the Connections Between Layers of Deep Neural Networks\n
+http://arxiv.org/abs/1306.0152
+Classification for Big Dataset of Bioacoustic Signals Based on Human  Scoring System and Artificial Neural Network\n
+http://arxiv.org/abs/1305.3633
+Thoughts on a Recursive Classifier Graph: a Multiclass Network for Deep  Object Recognition\n
+http://arxiv.org/abs/1404.2903
+Robust Face Recognition via Block Sparse Bayesian Learning\n
+http://arxiv.org/abs/1301.6847
+An Unsupervised Dynamic Image Segmentation using Fuzzy Hopfield Neural  Network based Genetic Algorithm\n
+http://arxiv.org/abs/1205.6572
