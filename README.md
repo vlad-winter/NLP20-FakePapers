@@ -18,7 +18,15 @@ In order to make our University proud, we have decided that as all CS researches
 The dataset was downloaded from arxiv using a python script scraper. We downloaded and preprocessed over 2,000 papers, s.t. for each paper the abstract and the matching introuction texts were extracted.
 
 ## Preprocessing
-TBA
+We've created a script that takes a latex file and extract the relevant sections.  
+We wanted to remove all the latex-related commands, and to remove numbers, citation marks, and equations.  
+To do that we create a tree of words and closures and made a decision of what goes in the text and whats not, e.g. italic text will stay normal, cites will be replaced by a placeholder, figure are ignored, etc.  
+
+Few examples of cleaning latex commands:  
+- `Using \textit{CNN} is awesome` will result in `Using CNN is awesome`.
+- `Our results are relatively (\cite{Einstein}) impressive` will result in `Our results are relatively (_cite_) impressive`.
+- `The RNN does not converge with $\alpha=0.5$` will result in `The proposed RNN does not converge with _inline_eq_`.
+- `\begin{align} \Sigma=\frac{1}{N}XX^T \end{align}` will result in `_eq_`.
 
 ## Architecture
 Most Machine-Learning papers are divided to similar sections: introduction; previous work; preliminaries; method; results; conclusion, each written in a different tone and flavor. We've decided that each section should use a different model in order to capture those differences.  
