@@ -18,17 +18,7 @@ In order to make our University proud, we have decided that as all CS researches
 The dataset was downloaded from arxiv using a python script scraper. We downloaded and preprocessed over 2,000 papers, s.t. for each paper the abstract and the matching introuction texts were extracted.
 
 ## Preprocessing
-
-1. **Getting the papers**: in the `/data_prepocessing/data_download` folder, run the following script:
-```bash
-python complete_dataset.py
-```
-it will create a folder named `papers folder'
-
-2. **Parsing LaTeX** and extracting relevant parts: 
-```bash
-python data_prepocessing/extract.py --path PATH_TO_PAPERS_FOLDER
-```
+TBA
 
 ## Architecture
 Most Machine-Learning papers are divided to similar sections: introduction; previous work; preliminaries; method; results; conclusion, each written in a different tone and flavor. We've decided that each section should use a different model in order to capture those differences.  
@@ -69,9 +59,19 @@ pip install requirements.txt
 
 ### Data preprocessing
 
-This stage required couple of stages 
 
-### How to train
+1. **Getting the papers**: in the `/data_prepocessing/data_download` folder, run the following script:
+```bash
+python complete_dataset.py
+```
+it will create a folder named `papers folder`
+
+2. **Parsing LaTeX** and extracting relevant parts: 
+```bash
+python data_prepocessing/extract.py --path PATH_TO_PAPERS_FOLDER
+```
+
+### Training
 
 #### Training the 'abstract' model 
 Run the following script:
