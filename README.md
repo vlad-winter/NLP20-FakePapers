@@ -1,9 +1,15 @@
 # FakePapers_NLP_Project
 
+## Table of Contents
+1. [Task Definition](#Task-Definition)
+2. [Data Description](#Data-Description)
+3. [Data Preprocessing](#Data-Preprocessing)
+4. [Architecture](#Architecture)
+
 ## Task Definition
 In order to make our University proud, we have decided that as all CS researches we preffer that someone else will do the job of writing papers for us. To accomplish this task we thought of a model, that according to our abstract idea, will write the rest of paper accordingly. So, formally speaking, giving an abstract, it would generate the rest of the paper by relevant sections, strating with the INTRO.
 
-## Data description
+## Data Description
 The dataset was downloaded from arxiv using a python script scraper. We downloaded and preprocessed over 2,000 papers, s.t. for each paper the abstract and the matching introuction texts were extracted.
 
 ### Data Preprocessing
