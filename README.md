@@ -1,10 +1,15 @@
 # FakePapers_NLP_Project
 
 ## Table of Contents
-1. [Task Definition](#Task-Definition)
-2. [Data Description](#Data-Description)
-3. [Data Preprocessing](#Data-Preprocessing)
-4. [Architecture](#Architecture)
+- [Task Definition](#Task-Definition)
+- [Data Description](#Data-Description)
+- [Preprocessing](#Preprocessing)
+- [Architecture](#Architecture)
+- [Results](#Results)
+  - [Examples](#Examples)
+- [Evaluation](#Evaluation)
+- [Conclusions](#Conclusions)
+- [Using the Code](#Using-the-Code)
 
 ## Task Definition
 In order to make our University proud, we have decided that as all CS researches we preffer that someone else will do the job of writing papers for us. To accomplish this task we thought of a model, that according to our abstract idea, will write the rest of paper accordingly. So, formally speaking, giving an abstract, it would generate the rest of the paper by relevant sections, strating with the INTRO.
@@ -12,7 +17,7 @@ In order to make our University proud, we have decided that as all CS researches
 ## Data Description
 The dataset was downloaded from arxiv using a python script scraper. We downloaded and preprocessed over 2,000 papers, s.t. for each paper the abstract and the matching introuction texts were extracted.
 
-### Data Preprocessing
+## Preprocessing
 
 1. **Getting the papers**: in the `/data_prepocessing/data_download` folder, run the following script:
 ```bash
@@ -42,7 +47,7 @@ This architecture was tested on the intro, but can be performed on every section
 ### Examples
 TBA
 
-## Evaluating the model
+## Evaluation
 We did not find an empirical way to evaluate the model, except of our sheer admiration.  
 To evaluate the model we generated a bunch of into sections given abstracts, and were looking for the specific "intro tone" we know from papers we've read, and for a correlation between the topics talked about in the 'abstract' and the generated 'intro'.  
 The model has performed above and beyond our expectations (which were quite low as you can probably tell).
