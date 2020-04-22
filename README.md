@@ -1,4 +1,4 @@
-# FakePapers_NLP_Project
+# Fake Papers - NLP Project
 
 ## Table of Contents
 - [Task Definition](#Task-Definition)
