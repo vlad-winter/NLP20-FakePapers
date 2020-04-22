@@ -35,7 +35,8 @@ Next, we use another pre-trained gpt-2 model and fine-tune it in the following m
 This architecture was tested on the intro, but can be performed on every section of the paper.
 
 ### Examples
-#### Abstract:
+
+#### Abstract [Li, G., & Yu, Y. (2016)][1]:
 Visual saliency is a fundamental problem in both cognitive and computational sciences, including computer vision. In this paper, we discover that a high-quality visual saliency model can be learned from multiscale features extracted using deep convolutional neural networks (CNNs), which have had many successes in visual recognition tasks. For learning such saliency models, we introduce a neural network architecture, which has fully connected layers on top of CNNs responsible for feature extraction at three different scales. We then propose a refinement method to enhance the spatial coherence of our saliency results. Finally, aggregating multiple saliency maps computed for different levels of image segmentation can further boost the performance, yielding saliency maps better than those generated from a single segmentation. To promote further research and evaluation of visual saliency models, we also construct a new large database of N challenging images and their pixelwise saliency annotations. Experimental results demonstrate that our proposed method is capable of achieving state-of-the-art performance on all public benchmarks, improving the F-Measure by N \% and N \% respectively on the MSRA-B dataset and our new dataset (HKU-IS), and lowering the mean absolute error by N \% and N \% respectively on these two datasets. 
  
 #### Generated Introduction:
@@ -89,3 +90,6 @@ Run the following script:
 ```bash
 python train_intro.py
 ```
+
+## References
+[1]: Li, G., & Yu, Y. (2016). Visual saliency detection based on multiscale deep CNN features. IEEE transactions on image processing, 25(11), 5012-5024.
