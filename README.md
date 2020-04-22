@@ -25,7 +25,7 @@ To do that we create a tree of words and closures and made a decision of what go
 Few examples of cleaning latex commands:  
 - `Using \textit{CNN} is awesome` will result in `Using CNN is awesome`.
 - `Our results are relatively (\cite{Einstein}) impressive` will result in `Our results are relatively (_cite_) impressive`.
-- `The RNN does not converge with $\alpha=0.5$` will result in `The proposed RNN does not converge with _inline_eq_`.
+- `The RNN does not converge with $\alpha=0.5$` will result in `The RNN does not converge with _inline_eq_`.
 - `\begin{align} \Sigma=\frac{1}{N}XX^T \end{align}` will result in `_eq_`.
 
 ## Architecture
