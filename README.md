@@ -20,44 +20,55 @@ python data_prepocessing/extract.py --path PATH_TO_PAPERS_FOLDER
 ```
 
 ## Architecture
-Our architecture is based over gpt-2 model. At first stage, after data preprocessing, we finetune the pretrained gpt-2 model over our extracted abstracts.
+Most Machine-Learning papers are divided to similar sections: introduction; previous work; preliminaries; method; results; conclusion, each written in a different tone and flavor. We've decided that each section should use a different model in order to capture those differences.  
+In order to do that, we've designed the architecture based on hierarchy of gpt-2 models. First process the abstract, and then continue the processing with a different model for each section.
 
-Next, we use another pre-trained gpt-2 and finetune it in the following manner:
-- for each abstract, intro pair we first do forward pass of the abstract on the previous model we learned.
-- then, we take the past hidden state generated from that model, sent it as the past argument to the intro model and do forward pass on our given intro.
-- backpropage the gradient loss.
+The learning process is as follows:
+At the first stage, after data preprocessing, we fine-tune the pretrained gpt-2 model over our extracted abstracts.  
+Next, we use another pre-trained gpt-2 model and fine-tune it in the following manner:
+- for each <abstract,section> pair perform a forward pass of given abstract on the 'abstract' model previously learned.
+- then, take the past hidden state generated from that model, and send it as the past argument to the section model and do forward pass on our given section.
+- backpropage the gradient loss only for the section model (excluding the 'abstract' model)
 
-* This process was tested on the intro, but can be performed on every section of the paper.
+## Results
+This architecture was tested on the intro, but can be performed on every section of the paper.
 
+### Examples
+TBA
 
-
-# Results
-
-## Examples
+## Evaluating the model
+We did not find an empirical way to evaluate the model, except of our sheer admiration.  
+To evaluate the model we generated a bunch of into sections given abstracts, and were looking for the specific "intro tone" we know from papers we've read, and for a correlation between the topics talked about in the 'abstract' and the generated 'intro'.  
+The model has performed above and beyond our expectations (which were quite low as you can probably tell).
 
 ## Conclusions
+Unfortunately, as for the seen future, we will need to write our own papers.  
+Nevertheless, the results were better then we expected and the generated introductions showed some correlation to the given abstract topic.
 
-Unfortunately, as for the seen future, we will need to write our own papers. Nevertheless, the results were better then we expected and the generated introductions showed some correlation to the given abstract topic. Hopefully, someday we will be able to use this algorithm to defeat the Chinese.
+Future work can be done by using a better hierarchy, having a custome GPT-2 like model that receives an output from 'abstract' model and use it for each section model in a different way than using the 'past' argument.  
 
-## How to install
+
+## Using the Code
+
+### How to install
 
 ```bash 
 pip install requirements.txt 
 ```
 
-## Data Preprocessing
+### Data preprocessing
 
 This stage required couple of stages 
 
-## How to train
+### How to train
 
-### Training the Abstract Model 
+#### Training the 'abstract' model 
 Run the following script:
 
 ```bash
 python train_abs.py
 ```
-### Training the Intro Model
+#### Training the 'intro' model
 Run the following script:
 
 ```bash
