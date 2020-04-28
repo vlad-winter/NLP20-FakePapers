@@ -54,14 +54,14 @@ More interesting examples at the [generated samples folder](https://github.com/v
 
 ## Evaluation
 We did not find an empirical way to evaluate the model, except of our sheer admiration.  
-To evaluate the model we generated a bunch of into sections given abstracts, and were looking for the specific "intro tone" we know from papers we've read, and for a correlation between the topics talked about in the 'abstract' and the generated 'intro'.  
+To evaluate the model we generated a bunch of intro sections given abstracts, and were looking for the specific "intro tone" we know from papers we've read, and for a correlation between the topics talked about in the 'abstract' and the generated 'intro'.  
 The model has performed above and beyond our expectations (which were quite low as you can probably tell).
 
 ## Conclusions
 Unfortunately, as for the seen future, we will need to write our own papers.  
 Nevertheless, the results were better then we expected and the generated introductions showed some correlation to the given abstract topic.
 
-Future work can be done by using a better hierarchy, having a custome GPT-2 like model that receives an output from 'abstract' model and use it for each section model in a different way than using the 'past' argument.  
+Future work can be done by using a better hierarchy, having a custom GPT-2 like model that receives an output (different from 'past') from 'abstract' model and use it as an aditional input, integrated in the model differently than 'past'.  
 
 
 ## Using the Code
