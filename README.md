@@ -1,4 +1,4 @@
-# Fake Papers - NLP Project
+# Fake Papers - A Long Expected Project
 
 This is a final project in the [NLP course at BGU](https://www.cs.bgu.ac.il/~elhadad/nlp20.html).  
 The project was done by [Eden Abadi](https://abadied.github.io/), [Vlad Winter](https://github.com/vlad-winter/) and [Shahaf Finder](https://shahaffind.github.io/).
