@@ -16,7 +16,7 @@ Click==7.0
 colorama==0.4.3
 conda==4.8.3
 conda-package-handling==1.6.0
-cryptography==2.8
+cryptography==3.2
 cycler==0.10.0
 cymem==2.0.3
 Cython==0.29.16
